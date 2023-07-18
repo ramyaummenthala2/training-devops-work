@@ -1,0 +1,14 @@
+ebase : Rebase is used for re-writing the history on top of base branch. Rebase will keep the history clean without combining any commits together.
+
+eg : develop  M1 M2 M3 M4 M5 M6 M7 M8
+
+           develop > git rebase release
+  
+     release  M1 M2 M3 M4 M5 
+
+
+eg : develop  M1 M2 M3 M4 M5 M6 M7 M8
+
+            develop > git rebase release
+
+    release  M1 M2 M3 M4 M5 M6
